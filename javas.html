@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabili</title>
+</head>
+
+<body>
+    <script>
+        var num1 = 5
+        var num2 = 3
+        console.log("Il valore della variabile num1 e'" + num1)
+        console.log("Il valore della variabile num2 e'" + num2)
+        var stringa = 'test'
+        console.log("Il valore della variabile stringa e'" + stringa)
+        stringa = "cambio test"
+        console.log("Il valore della variabile stringa e'" + stringa)
+        const PIGRECO = 3.14159265359
+        console.log("Il valore del PIGRECO e'" + PIGRECO)
+        PIGRECO = 1
+        console.log("Il valore del PIGRECO e'" + PIGRECO)
+
+    </script>
+
+    <button onclick="myFunction()">Click here</button>
+
+    <p id="test"></p>
+
+    <script>
+        function myFunction() {
+            let person = prompt("Enter your name");
+            if (person != null) {
+                document.getElementById("test").innerHTML =
+                    "Hello " + person + "! How are you?";
+            }
+        }
+    </script>
+    <script>
+        var x = 2
+        var y = 3
+        var z = 5
+        var a = 6
+        var c = 10
+        var b = x + y + z + a + c
+        var d = b / 5
+        console.log("La somma tra i numeri equivale a" , b ," e la media equivale a" , d)
+    </script>
+    <script>
+        var nascita = 1979
+        var corrente = 2023
+        var eta = corrente - nascita
+        var diff = 100 - eta
+        console.log("Hai", eta, "anni e ti mancano" , diff, "per compierne 100.")
+
+    </script>
+
+</body>
+<script>
+    var numm1 =
+        parseInt(prompt('Inserisci un numero'))
+    var numm2 =
+        parseInt(prompt('Inserisci un altro numero'))
+    var somma = numm1 + numm2
+    var sottrazione =numm1 - numm2
+    var moltiplicazione = numm1 * numm2
+    var divisione = numm1 / numm2
+    var potenza = Math.pow(numm1,numm2)
+    console.log("Con i numeri da te scelti, i riusltati delle varie operazioni sono:" +" "+ somma, sottrazione, moltiplicazione, divisione, potenza)  
+
+
+</script>
+
+</html>
